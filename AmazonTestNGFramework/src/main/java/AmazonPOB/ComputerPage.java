@@ -28,6 +28,7 @@ public class ComputerPage {
 	public void Proceed_To_Checkout() {
 		ProceedtoCheckout.click();
 		int i = 0;
+		
 	}
 		
 	public ComputerPage(WebDriver driver) {
