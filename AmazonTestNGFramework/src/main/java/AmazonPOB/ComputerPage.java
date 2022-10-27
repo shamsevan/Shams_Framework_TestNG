@@ -27,12 +27,14 @@ public class ComputerPage {
 	
 	public void Proceed_To_Checkout() {
 		ProceedtoCheckout.click();
+		int i = 0;
 	}
 		
 	public ComputerPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+	//Hi this is evan
 	
 	
 
