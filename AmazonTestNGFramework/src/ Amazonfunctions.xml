@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "AmazonRegression" parallel="tests"   thread-count="5"  > 
+<listeners>
+
+<listener class-name="ListenerPack.Ilisteners"></listener>
+
+</listeners>
+        
+<test name="EAL">
+
+<parameter name="browser" value="Chrome"></parameter>
+<parameter name="website" value="https://www.amazton.com/"></parameter>
+<classes>
+ 
+<class name="TestClasses.AmazonToPurchase"></class>
+
+</classes>
+</test>
+</suite>
